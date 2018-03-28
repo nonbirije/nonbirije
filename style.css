@@ -1,0 +1,58 @@
+body
+{margin: 0px;}
+
+input
+{float:right;
+ width:100px;
+ border:1px solid black;
+ padding:5px;
+ margin:5px;}
+
+h1
+{font-size:50px;
+ text-align:center;
+ text-decoration:none;
+ border-bottom:1px gray solid;
+ margin:0px;
+ padding:20px;}
+
+ h2
+ {font-size:25px;
+  text-decoration:none;
+  margin:0px;
+  padding:0px;}
+
+ a
+{color:black;
+ text-decoration:none;}
+
+.wiki
+{color:inherit;
+ font-weight:normal;
+ font-style:italic;
+ text-decoration:none;}
+
+ ol
+ {border-right:1px gray solid;
+  width:150px;
+  margin:0px;
+  padding-left:30px;}
+
+#grid
+ {display: grid;
+  grid-template-columns: 200px 1fr;}
+
+#grid ol
+ {padding-left:33px;}
+
+#grid #content
+ {padding-left:25px;}
+
+#index-page ol
+ {border-right:none}
+
+@media(max-width:800px){
+#grid{display:block;}
+#grid ol{border-right:none;}
+h1
+{border-bottom:none;}}
